@@ -1,0 +1,9 @@
+@import 'main.css';
+@charset "utf-8"; 
+
+body{
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Oxygen', sans-serif;
+}
+
