@@ -9,12 +9,48 @@
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     <link href="css/hover.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/image-animation.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-<body> 
-      <!-- Navigation -->   
-   
+<body data-spy="scroll" data-target=".navbar" data-offset="50"> 
+<!-- Background -->
+    <section id="start">
+        <div class="background-image"><a href="#"><img class="logo img-responsive" src="img/logo.png" alt="logo firmy"></a></div>
+    </section>
+<!-- Navigation -->   
+ <section id="navigation">
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-default" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav ">
+          <li class="active"><a href="#start">Start</a></li>
+          <li><a href="#products">Nasze produkty</a></li>
+          <li><a href="#xxx">xxx</a></li>
+          <li><a href="#xxx">xxx</a></li>
+          <li><a href="#xxx">xxx</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</section>
+<!-- Products  -->
+<section id="products">
+    <div class="container our-goods">
+        <h2>Poznaj nasze produkty:</h2>
+        <div class="row">
+            <div class="col-xs-12 col-md-4"><img class="img-responsive hvr-float" src="img/miod.png" alt="miodek"><h3>Miody</h3></div>
+            <div class="col-xs-12 col-md-4"><img class="img-responsive hvr-float" src="img/pylek.png" alt="pyłek"><h3>Pyłek kwiatowy</h3></div>
+            <div class="col-xs-12 col-md-4"><img class="img-responsive hvr-float" src="img/mleczko.png" alt="mleczko"><h3>Mleczko pszczele</h3></div>
+        </div>
+    </div>
+</section>
+
     <!--    Scripts      -->
     <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

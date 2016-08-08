@@ -1,9 +1,97 @@
 @import 'main.css';
 @charset "utf-8"; 
+/*
+Colors: 
+FFD701 -yellow
+E8AC01 -orange+brown
+FFA80C -orange
+E87901 -black orange
+FF6001 -strong orange
+*/
 
 body{
     background-color: white;
     font-size: 14px;
     font-family: 'Oxygen', sans-serif;
+}
+
+/*start*/
+.background-image {
+    height: 400px;
+    background: url(../img/background-main.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    
+}
+@media (max-width: 768px) {
+
+}
+/*navigation*/
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.nav a{
+    font-size: 1.3em;
+    padding: 20px;
+    margin-left: 5px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #FF6001;
+    color: #000000;
+}
+.navbar-default{
+    background: orange;
+}
+ul a {
+    color: white !important;
+}
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: #FFD701 !important;
+}
+/*products*/
+.our-goods {
+    margin-top: 50px;
+}
+.our-goods h2{
+    text-align: center;
+    color: rgb(255, 94, 1);
+    font-size: 4em;
+    text-shadow: rgba(0, 0, 0, 0.2) 2px 6px 5px, rgba(255, 255, 255, 0.4) 0px -4px 30px;
+    margin-bottom: 30px;
+}
+.our-goods h3{
+    text-align: center;
+    color: rgb(255, 94, 1);
+    font-size: 2em;
+    text-shadow: rgba(0, 0, 0, 0.1) 2px 6px 5px, rgba(255, 255, 255, 0.4) 0px -4px 30px;
+    margin-bottom: 30px;
+}
+.our-goods img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 992px) {
+    .our-goods img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto }
 }
 
