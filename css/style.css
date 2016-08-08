@@ -11,18 +11,19 @@ FF6001 -strong orange
 
 body{
     background-color: white;
-    font-size: 14px;
-    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
 }
 
 /*start*/
 .background-image {
     height: 400px;
     background: url(../img/background-main.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .logo {
     position: relative;
@@ -51,6 +52,7 @@ body{
     font-size: 1.3em;
     padding: 20px;
     margin-left: 5px;
+    right: 80px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color: #FF6001;
@@ -64,6 +66,18 @@ ul a {
 }
 .navbar-inverse .navbar-nav>.active>a {
     background-color: #FFD701 !important;
+}
+.navbar-brand img {
+    height: 35px;
+    visibility: hidden;
+}
+.show img {
+    visibility:visible;
+}
+@media (max-width: 992px) {
+    .nav a{
+        right: 0px;
+    }
 }
 /*products*/
 .our-goods {
@@ -79,7 +93,7 @@ ul a {
 .our-goods h3{
     text-align: center;
     color: rgb(255, 94, 1);
-    font-size: 2em;
+    font-size: 2.5em;
     text-shadow: rgba(0, 0, 0, 0.1) 2px 6px 5px, rgba(255, 255, 255, 0.4) 0px -4px 30px;
     margin-bottom: 30px;
 }
@@ -94,4 +108,20 @@ ul a {
         margin-left: auto;
         margin-right: auto }
 }
-
+/*hives*/
+.about-hives {
+    height: 400px;
+    background: url(../img/background-hives.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color:rgba(255,0,0,0.5);
+}
+.about-hives h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 4em;
+    text-shadow: rgba(0, 0, 0, 0.2) 2px 6px 5px, rgba(255, 255, 255, 0.4) 0px -4px 30px;
+    margin-bottom: 30px;
+}
